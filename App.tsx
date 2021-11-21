@@ -7,7 +7,7 @@ import AppLoading from 'expo-app-loading';
 import { ThemeProvider } from 'styled-components';
 import { theme } from './src/global/styles/theme';
 import { Background } from './src/components/Background';
-import { Home } from './src/pages/Home';
+import { Routes } from './src/routes';
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -29,7 +29,7 @@ export default function App() {
     />
 
     <ThemeProvider theme={theme}>
-    <Home />
+    <Routes />
     </ThemeProvider>
     </Background>
   );

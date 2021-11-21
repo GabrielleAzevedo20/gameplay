@@ -15,17 +15,18 @@ export const User = styled.View`
 export const Greetting = styled.Text`
     font-family: ${({ theme }) => theme.fonts.title500};
     font-size: 24px;
-    color: ${({ theme }) => theme.colors.heading}
+    color: ${({ theme }) => theme.colors.heading};
     margin-right: 5px;
 `;
 
 export const Username = styled.Text`
     font-family: ${({ theme }) => theme.fonts.title700};
-    font-size; 24px;
-    color: ${({ theme }) => theme.colors.heading}
+    font-size: 24px;
+    color: ${({ theme }) => theme.colors.heading};
 `;
 
 export const Message = styled.Text`
     font-family: ${({ theme }) => theme.fonts.text400};
-    color: ${({ theme }) => theme.colors.highlight}
+    color: ${({ theme }) => theme.colors.highlight};
+    margin-right: 5px;
 `;

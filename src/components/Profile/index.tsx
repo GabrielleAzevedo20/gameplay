@@ -13,7 +13,7 @@ export function Profile() {
                         Olá
                     </Greetting>
                     <Username>
-                        Gabrielle
+                        Gabrielle 
                     </Username>
                     <Message>
                         Insieme per la victoria
