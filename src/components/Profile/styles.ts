@@ -1,18 +1,21 @@
-import { theme } from './../../global/styles/theme';
-import styled from "styled-components/native";
+import styled from 'styled-components/native'
 
 
 export const Container = styled.View`
     flex-direction: row;
+    align-items: center;
+
 `;
 
-export const Content = styled.View``;
+export const Content = styled.View`
+    margin-top: 5px;
+    `;
 
 export const User = styled.View`
     flex-direction: row;
 `;
 
-export const Greetting = styled.Text`
+export const Greetings = styled.Text`
     font-family: ${({ theme }) => theme.fonts.title500};
     font-size: 24px;
     color: ${({ theme }) => theme.colors.heading};
@@ -26,7 +29,7 @@ export const Username = styled.Text`
 `;
 
 export const Message = styled.Text`
+    margin-top: 5px;
     font-family: ${({ theme }) => theme.fonts.text400};
     color: ${({ theme }) => theme.colors.highlight};
-    margin-right: 5px;
 `;

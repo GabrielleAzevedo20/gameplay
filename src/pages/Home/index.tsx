@@ -13,7 +13,7 @@ export function Home() {
                 <ButtonAdd />
             </Header>
 
-            <CategorySelect />
+            <CategorySelect categorySelected={''} />
 
         </Container>
     )
