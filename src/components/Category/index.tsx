@@ -19,8 +19,8 @@ export function Category({title, icon: Icon, checked = false, ...rest}: Props) {
             <Icon width={48}
               height={48}
               />
-              <Title>{title}</Title>
           </Checked>
+          <Title>{title}</Title>
         </Content>
       </Container>
     );
